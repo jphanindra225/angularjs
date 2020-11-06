@@ -1,0 +1,26 @@
+{
+  "name": "angularjs",
+  "version": "1.0.0",
+  "description": "<!--\r *** Thanks for checking out this README Template. If you have a suggestion that would\r *** make this better, please fork the repo and create a pull request or simply open\r *** an issue with the tag \"enhancement\".\r *** Thanks again! Now go create something AMAZING! :D\r -->",
+  "main": "index.js",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.28",
+    "angular": "^1.8.0",
+    "angular-ui-bootstrap": "^2.5.6",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jphanindra225/angularjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jphanindra225/angularjs/issues"
+  },
+  "homepage": "https://github.com/jphanindra225/angularjs#readme"
+}

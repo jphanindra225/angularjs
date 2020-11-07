@@ -46,11 +46,20 @@ To run project follow the steps
 
 ### Installation
 
-2. Clone the repo
+1. Clone the repo
 ```sh
 git clone https://github.com/jphanindra225/angularjs
 ```
-3. Install NPM packages
+2. Install NPM packages
 ```sh
 npm install
+```
+
+### Running Project
+
+1. Open command prompt
+2. Navigate to Project Folder
+3. Run the following command
+```sh
+http-server
 ```

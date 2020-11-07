@@ -11,3 +11,30 @@
         </div>
     </div>
 </section>
+
+<section class="play-ground">
+    <div class="container" ng-controller="DominoController">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button class="btn btn-link" ng-click="reverseDomino()"><i class="fa fa-backward" aria-hidden="true"></i></button>
+                <button class="btn btn-link" ng-click="newDomino()">New</button>
+                <button class="btn btn-link" ng-click="forwardDomino()"><i class="fa fa-forward" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div id="newDominoPiece"></div>
+            </div>
+            <div class="col-md-6 ml-auto">
+                <div ng-repeat="i in getNumberPattern(numberPattern) track by $index" class="domino-blocks">
+                    <span ng-repeat="i in getNumberPattern($index) track by $index">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <!-- <ul class="domino-box">
+                    <li ng-repeat="n in [] | range:6">{{$index + 1}}</li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+</section>
